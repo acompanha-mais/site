@@ -1,0 +1,31 @@
+.hero {
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.5rem;
+}
+
+.hero p {
+    padding-top: 2rem;
+}
+
+.hero a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 180px;
+    margin: 20px auto;
+    border-radius: 50px;
+    color: white;
+    background-color: #e60023;
+}
+
+.hero a:hover {
+    transition: 0.6s;
+    background-color: #ffd700;
+}
+
+.hero img {
+    width: 240px;
+}
