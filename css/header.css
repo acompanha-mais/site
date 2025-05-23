@@ -47,6 +47,47 @@
     border-bottom: 2px solid rgba(0, 0, 0, .05);
 }
 
+#btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.8rem;
+}
+
+#hamburguer {
+    color: black;
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+}
+
+#hamburguer::after, #hamburguer::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+}
+
+#nav.active #hamburguer {
+    border-top-color: transparent;
+}
+
+#nav.active #hamburguer::before {
+    transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
 .logo-link {
     display: block;
     width: 120px;
