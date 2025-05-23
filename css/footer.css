@@ -1,0 +1,43 @@
+.footer-imrea {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container-footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-imrea p {
+  margin: 5px 0;
+}
+
+.social-links {
+  margin: 15px 0;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+}
+
+.footer-imrea strong {
+  font-size: 1.1em;
+}
+
+.footer-imrea .copyright {
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
