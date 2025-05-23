@@ -1,4 +1,4 @@
-.footer-imrea {
+.footer-acompanha {
   background-color: #004080;
   color: white;
   padding: 20px 0;
@@ -12,7 +12,7 @@
   padding: 0 20px;
 }
 
-.footer-imrea p {
+.footer-acompanha p {
   margin: 5px 0;
 }
 
@@ -32,11 +32,11 @@
   color: #ffd700;
 }
 
-.footer-imrea strong {
+.footer-acompanha strong {
   font-size: 1.1em;
 }
 
-.footer-imrea .copyright {
+.footer-acompanha .copyright {
   font-size: 14px;
   margin-top: 10px;
   opacity: 0.8;
