@@ -1,0 +1,35 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #9BCBDC;
+}
+
+#menu {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#menu a {
+    display: block;
+    padding: 0.5rem;
+}
+
+#menu {
+    display: none;
+}
+
+.acompanha-logo {
+    width: 60%;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
