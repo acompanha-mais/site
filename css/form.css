@@ -1,0 +1,47 @@
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+form legend {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 550;
+    padding-bottom: 1rem;
+}
+
+
+form button {
+    display: block;
+    margin: 20px auto;
+
+    height: 40px;
+    width: 50%;
+    min-width: 120px;
+    max-width: 200px;
+
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: #e60023;
+}
+
+.input-box {
+    padding: 1px;
+}
+
+form p {
+    padding: 1rem;
+}
+
+.padding-simples {
+    padding-top: 4rem;
+}
