@@ -25,8 +25,8 @@
             </button>
             <ul id="menu" role="menu">
                 <li><a href="../index.html">Início</a></li>
-                <li><a href="cadastro.html">Quero me voluntariar</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro-cuidador.html">Quero me voluntariar</a></li>
+                <li><a href="login-cuidador.html">Login</a></li>
                 <li><a href="#">Números que importam</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Contato</a></li>
@@ -58,7 +58,11 @@
                         </div>
                         <div class="input-box">
                             <label for="idEmail">Email:</label>
-                            <input type="text" name="email" id="idEmail" placeholder="Digite seu email" maxlength="100" required>
+                            <input type="email" name="email" id="idEmail" placeholder="Digite seu email" maxlength="100" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="idSenha">Senha:</label>
+                            <input type="password" name="senha" id="idEmail" placeholder="Senha (mínimo 6 caracteres)" minlength="6" maxlength="64" required>
                         </div>
                         <div class="input-box">
                             <label for="idCpf">CPF:</label>
@@ -80,7 +84,7 @@
                         <button type="submit" id="idBotao">Enviar</button>
                         
                         <div>
-                            <p>Já é um voluntário? <a href="login.html">Faça login</a></p>
+                            <p>Já é um voluntário? <a href="login-cuidador.html">Faça login</a></p>
                         </div>
                     </fieldset>
                 </form>
