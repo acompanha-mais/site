@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quero me voluntariar - Acompanha+</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/voluntariar.css">
+
+    <script src="../js/nav-toggle.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <a href="../index.html" class="logo-link">
+            <img src="../images/acompanha_logo.png" alt="Logo da Acompanha mais" class="logo">
+        </a>
+
+        <nav id="nav">
+            <button aria-laber="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="voluntariar.html">Quero me voluntariar</a></li>
+                <li><a href="#">Números que importam</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Integrantes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Ser um voluntário</h1>
+        <section class="register">
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Preencha seus dados:</legend>
+                        <div>
+                            <label for="idNome">Nome completo:</label>
+                            <input type="text" name="nome" id="idNome" placeholder="Digite seu nome" maxlength="100" required>
+                        </div>
+                        <div>
+                            <label for="idTelefone">Telefone:</label>
+                            <input type="tel" name="telefone" id="idTelefone" placeholder="Digite seu telefone">
+                        </div>
+                        <div>
+                            <label for="idCpf">CPF:</label>
+                            <input type="text" name="cpf" id="idCpf" placeholder="Digite seu CPF (apenas números)" maxlength="11" required>
+                        </div>
+                        <div>
+                            <label for="idSexo">Sexo:</label>
+                            <select name="sexo" id="idSexo" required>
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Feminino">Feminino</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="idDataNascimento">Data de Nascimento:</label>
+                            <input type="date" name="dataNascimento" id="idDataNascimento" required>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-acompanha">
+        <div class="container-footer">
+            <p><strong>Acompanha+ - Apoio digital ao paciente.</strong></p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/matheusvecchi/" target="_blank" rel="noopener">Matheus Vecchi</a>
+                <a href="https://www.linkedin.com/in/jonas-santos-a34138220/" target="_blank" rel="noopener">Jonas Santos</a>
+                <a href="#">Gustavo Cordeiro</a>
+            </div>
+
+            <p class="copyright">&copy; 2025 Acompanha+. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

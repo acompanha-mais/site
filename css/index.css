@@ -14,7 +14,9 @@
     align-items: center;
 
     height: 40px;
-    width: 180px;
+    min-width: 90px;
+    max-width: 180px;
+    width: 70%;
     margin: 20px auto;
     border-radius: 50px;
     color: white;
@@ -27,5 +29,10 @@
 }
 
 .hero img {
-    width: 240px;
+    width: 80%;
+    max-width: 456px;
+}
+
+.hero span{
+    color: red;
 }
