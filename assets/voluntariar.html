@@ -35,25 +35,35 @@
     </header>
 
     <main>
-        <h1>Ser um voluntário</h1>
-        <section class="register">
+        <section class="hero-voluntariar">
+            <h2>Por que devo me voluntariar?</h2>
+            <p>Ser voluntário é mais do que doar seu tempo — é transformar vidas, incluindo a sua. 
+            Ao ajudar quem precisa, você desenvolve empatia, cria conexões reais e faz parte de algo maior.  
+            Junte-se a nós nessa missão de cuidado, inclusão e esperança.</p>
+        </section>
+
+        <section>
             <div>
                 <form>
                     <fieldset>
-                        <legend>Preencha seus dados:</legend>
-                        <div>
+                        <legend>Ser um voluntário</legend>
+                        <div class="input-box">
                             <label for="idNome">Nome completo:</label>
                             <input type="text" name="nome" id="idNome" placeholder="Digite seu nome" maxlength="100" required>
                         </div>
-                        <div>
+                        <div class="input-box">
                             <label for="idTelefone">Telefone:</label>
-                            <input type="tel" name="telefone" id="idTelefone" placeholder="Digite seu telefone">
+                            <input class="abc" type="tel" name="telefone" id="idTelefone" placeholder="Digite seu telefone" maxlength="11" required>
                         </div>
-                        <div>
+                        <div class="input-box">
+                            <label for="idEmail">Email:</label>
+                            <input type="text" name="email" id="idEmail" placeholder="Digite seu email" maxlength="100" required>
+                        </div>
+                        <div class="input-box">
                             <label for="idCpf">CPF:</label>
                             <input type="text" name="cpf" id="idCpf" placeholder="Digite seu CPF (apenas números)" maxlength="11" required>
                         </div>
-                        <div>
+                        <div class="input-box">
                             <label for="idSexo">Sexo:</label>
                             <select name="sexo" id="idSexo" required>
                                 <option value="" disabled selected>Selecione</option>
@@ -61,9 +71,15 @@
                                 <option value="Feminino">Feminino</option>
                             </select>
                         </div>
-                        <div>
+                        <div class="input-box">
                             <label for="idDataNascimento">Data de Nascimento:</label>
                             <input type="date" name="dataNascimento" id="idDataNascimento" required>
+                        </div>
+
+                        <button type="submit" id="idBotao">Enviar</button>
+                        
+                        <div>
+                            <p>Já é um voluntário? <a href="#">Faça login</a></p>
                         </div>
                     </fieldset>
                 </form>

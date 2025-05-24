@@ -1,6 +1,16 @@
-main h1 {
+.hero-voluntariar {
     text-align: center;
-    padding: 2rem;
+    margin-bottom: 5rem;
+    padding: 4rem;
+}
+
+.hero-voluntariar h2 {
+    font-size: 2.5rem;
+}
+
+.hero-voluntariar p {
+    padding-top: 2rem;
+    font-size: 1.5rem;
 }
 
 form {
@@ -10,4 +20,44 @@ form {
 
 form legend {
     position: relative;
+    font-size: 2rem;
+    font-weight: 550;
+    padding-bottom: 1rem;
+}
+
+form h1 {
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+    color: black;
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+
+    height: 40px;
+    width: 50%;
+    min-width: 120px;
+    max-width: 200px;
+
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: #e60023;
+}
+
+.input-box {
+    padding: 1px;
+}
+
+form p {
+    padding: 1rem;
 }
