@@ -45,3 +45,15 @@ form p {
 .padding-simples {
     padding-top: 4rem;
 }
+
+#idMensagem {
+    width: 50%;
+    min-width: 173px;
+    height: 120px;
+}
+
+label[for="idMensagem"] {
+    display: block;
+    margin-bottom: 4px; 
+    margin-top: 0;             
+}
