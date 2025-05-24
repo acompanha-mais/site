@@ -1,0 +1,14 @@
+main {
+    padding: 4rem;
+    font-size: 1.5rem;
+}
+
+main h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+main h2 {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
