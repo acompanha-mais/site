@@ -14,9 +14,9 @@
     align-items: center;
 
     height: 40px;
-    min-width: 90px;
-    max-width: 180px;
-    width: 70%;
+    width: 100%;
+    min-width: 120px;
+    max-width: 200px;
     margin: 20px auto;
     border-radius: 50px;
     color: white;
@@ -29,10 +29,37 @@
 }
 
 .hero img {
-    width: 80%;
-    max-width: 456px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 120px;
+    
 }
 
-.hero span{
-    color: red;
+.customer {
+    text-align: center;
+    padding: 1rem 4rem 4rem;
+    font-size: 1.5rem
+}
+
+.customer p {
+    padding-top: 2rem;
+}
+
+.customer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 100%;
+    min-width: 120px;
+    max-width: 200px;
+    margin: 20px auto;
+    border-radius: 50px;
+    color: white;
+    background-color: #004080;
+}
+
+.customer span {
+    color: #004080;
 }
