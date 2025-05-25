@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-
     <link rel="stylesheet" href="../css/form.css">
 
     <script src="../js/nav-toggle.js" defer></script>
+    <script src="../js/form-validation.js" defer></script>
 </head>
 
 <body>
@@ -46,14 +46,14 @@
                         <legend class="padding-simples">Login</legend>
                         <div class="input-box">
                             <label for="idEmail">Email:</label>
-                            <input type="email" name="email" id="idEmail" placeholder="Digite seu email" maxlength="100" required>
+                            <input type="email" name="email" id="idEmail" placeholder="Digite seu email">
                         </div>
                         <div class="input-box">
                             <label for="idSenha">Senha:</label>
-                            <input type="password" name="senha" id="idSenha" placeholder="Digite sua senha" minlength="6" maxlength="64" required>
+                            <input type="password" name="senha" id="idSenha" placeholder="Digite sua senha">
                         </div>
 
-                        <button type="submit">Logar</button>
+                        <button id="submit-button" type="submit">Logar</button>
 
                         <div>
                             <p>Ainda não é um voluntário? <a href="cadastro-cuidador.html">Cadastre-se</a></p>

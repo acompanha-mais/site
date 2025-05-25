@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/form.css">
 
     <script src="../js/nav-toggle.js" defer></script>
+    <script src="../js/form-validation.js" defer></script>
 </head>
 
 <body>
@@ -43,16 +44,16 @@
                         <fieldset>
                             <legend class="padding-simples">Fale conosco!</legend>
                             <div class="input-box">
-                                <label for="idNome">Nome:</label>
-                                <input type="text" name="nome" id="idNome" placeholder="Digite seu nome" maxlength="100" required>
+                                <label for="idNomeContato">Nome:</label>
+                                <input type="text" name="nome" id="idNomeContato" placeholder="Digite seu nome">
                             </div>
                             <div class="input-box">
-                                <label for="idTelefone">Telefone:</label>
-                                <input type="tel" name="telefone" id="idTelefone" placeholder="Digite seu telefone" maxlength="11" required>
+                                <label for="idTelefoneContato">Telefone:</label>
+                                <input type="tel" name="telefone" id="idTelefoneContato" placeholder="Digite seu telefone">
                             </div>
                             <div class="input-box">
                                 <label for="idMensagem" id="mensagem">Mensagem:</label>
-                                <textarea name="mensagem" id="idMensagem" placeholder="Digite sua mensagem" maxlength="1000" required></textarea>
+                                <textarea name="mensagem" id="idMensagem" placeholder="Digite sua mensagem"></textarea>
                             </div>
 
                             <button type="submit">Enviar</button>
