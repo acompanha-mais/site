@@ -13,4 +13,13 @@
     font-size: 1.5rem;
 }
 
+@media (min-width: 992px) {
+    .hero-voluntariar h2 {
+        font-size: 3rem;
+    }
+
+    .hero-voluntariar p {   
+        font-size: 2rem;
+    }
+}
 
