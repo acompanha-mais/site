@@ -1,0 +1,50 @@
+main h1 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+main p {
+    font-size: 2rem;
+}
+
+.time {
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.links img {
+    width: 3.5rem;
+    
+}
+
+.links a {
+    cursor: pointer;
+}
+
+.card-integrante {
+    display: inline-block;
+    width: 70%;
+    max-width: 290px;
+    height: 293px;
+    margin: 20px auto;
+    margin: 4rem;
+    padding: 4rem;
+    border-radius: 25px;
+    vertical-align: top;
+    background-color: #00b4d8;
+}
+
+
