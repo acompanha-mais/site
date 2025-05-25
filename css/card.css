@@ -6,6 +6,7 @@ main h1 {
 
 main p {
     font-size: 2rem;
+    text-align: center;
 }
 
 .time {
@@ -34,7 +35,7 @@ main p {
     cursor: pointer;
 }
 
-.card-integrante {
+.card {
     display: inline-block;
     width: 70%;
     max-width: 290px;
