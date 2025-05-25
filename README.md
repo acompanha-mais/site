@@ -20,7 +20,32 @@ Reduzir a taxa de absenteísmo em teleconsultas do IMREA, de 20% para < 10%, por
 
 ## 📁 Estrutura de Pastas e Arquivos
 
-A definir
+├── 📁 assets
+│   ├── cadastro-cuidador.html
+│   ├── contato.html
+│   ├── cuidadores.html
+│   ├── faq.html
+│   ├── integrantes.html
+│   ├── login-cuidador.html
+│
+├── 📁 css
+│   ├── cadastro.css
+│   ├── card.css
+│   ├── faq.css
+│   ├── footer.css
+│   ├── form.css
+│   ├── header.css
+│   ├── index.css
+│   └── style.css
+│
+├── 📁 images
+│   └── (imagens do projeto)
+│
+├── 📁 js
+│   └── nav-toggle.js
+│
+├── index.html
+└── README.md
 
 ## 👨‍💻 Integrantes
 
@@ -32,4 +57,4 @@ A definir
 
 ## 🔗 Endereço do Repositório do Projeto
 
-A definir
+https://github.com/acompanha-mais/site
