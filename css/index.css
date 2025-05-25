@@ -66,3 +66,23 @@
 .customer span {
     color: #004080;
 }
+
+@media (min-width: 768px) {
+    .hero {
+        font-size: 1.7rem;
+    }
+
+    .customer {
+        font-size: 1.7rem;
+    }
+
+    .hero a {
+        font-size: 1.7rem;
+        height: 50px;
+    }
+
+    .customer a {
+        font-size: 1.7rem;
+        height: 50px;
+    }
+}

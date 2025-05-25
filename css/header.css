@@ -141,3 +141,9 @@ a:hover {
         height: auto;
     }
 }
+
+@media (min-width: 768px) {
+    #menu a{
+        font-size: 1.5rem;
+    }
+}
