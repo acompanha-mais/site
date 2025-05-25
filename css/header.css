@@ -143,7 +143,13 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    #menu a{
+    #menu a {
         font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    #menu a {
+        font-size: 1.8rem;
     }
 }
