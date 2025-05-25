@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/form.css">
 
     <script src="../js/nav-toggle.js" defer></script>
+    <script src="../js/form-validation.js" defer></script>
 </head>
 
 <body>
@@ -52,27 +53,27 @@
                         <legend>Ser um voluntário</legend>
                         <div class="input-box">
                             <label for="idNome">Nome completo:</label>
-                            <input type="text" name="nome" id="idNome" placeholder="Digite seu nome" maxlength="100" required>
+                            <input type="text" name="nome" id="idNome" placeholder="Digite seu nome">
                         </div>
                         <div class="input-box">
                             <label for="idTelefone">Telefone:</label>
-                            <input class="abc" type="tel" name="telefone" id="idTelefone" placeholder="Digite seu telefone" maxlength="11" required>
+                            <input type="tel" name="telefone" id="idTelefone" placeholder="Digite seu telefone">
                         </div>
                         <div class="input-box">
                             <label for="idEmail">Email:</label>
-                            <input type="email" name="email" id="idEmail" placeholder="Digite seu email" maxlength="100" required>
+                            <input type="email" name="email" id="idEmail" placeholder="Digite seu email">
                         </div>
                         <div class="input-box">
                             <label for="idSenha">Senha:</label>
-                            <input type="password" name="senha" id="idEmail" placeholder="Senha (mínimo 6 caracteres)" minlength="6" maxlength="64" required>
+                            <input type="password" name="senha" id="idSenha" placeholder="Senha (mínimo 6 caracteres)">
                         </div>
                         <div class="input-box">
                             <label for="idCpf">CPF:</label>
-                            <input type="text" name="cpf" id="idCpf" placeholder="Digite seu CPF (apenas números)" maxlength="11" required>
+                            <input type="text" name="cpf" id="idCpf" placeholder="Digite seu CPF (apenas números)">
                         </div>
                         <div class="input-box">
                             <label for="idSexo">Sexo:</label>
-                            <select name="sexo" id="idSexo" required>
+                            <select name="sexo" id="idSexo">
                                 <option value="" disabled selected>Selecione</option>
                                 <option value="Masculino">Masculino</option>
                                 <option value="Feminino">Feminino</option>
@@ -80,10 +81,10 @@
                         </div>
                         <div class="input-box">
                             <label for="idDataNascimento">Data de Nascimento:</label>
-                            <input type="date" name="dataNascimento" id="idDataNascimento" required>
+                            <input type="date" name="dataNascimento" id="idDataNascimento">
                         </div>
 
-                        <button type="submit" id="idBotao">Enviar</button>
+                        <button id="submit-button" type="submit">Logar</button>
                         
                         <div>
                             <p>Já é um voluntário? <a href="login-cuidador.html">Faça login</a></p>
